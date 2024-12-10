@@ -1,0 +1,7 @@
+../Drivers/CMSIS/Include/core_cm4.h:1770:22:__NVIC_ClearPendingIRQ	16	static
+../Core/Src/Recording_WAV_files.c:52:5:main	8	static
+../Core/Src/Recording_WAV_files.c:135:6:EXTI15_10_IRQHandler	8	static
+../Core/Src/Recording_WAV_files.c:145:6:DMA1_Channel1_IRQHandler	8	static
+../Core/Src/Recording_WAV_files.c:178:6:SystemClock_Config	96	static
+../Core/Src/Recording_WAV_files.c:222:13:MX_SPI1_Init	8	static
+../Core/Src/Recording_WAV_files.c:264:6:Error_Handler	4	static,ignoring_inline_asm

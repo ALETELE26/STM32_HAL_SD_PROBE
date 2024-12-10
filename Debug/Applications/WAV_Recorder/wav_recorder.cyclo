@@ -1,0 +1,10 @@
+wav_recorder.c:44:13:wavRecorder_reset	1
+wav_recorder.c:54:6:wav_recorder_fileCreate	3
+wav_recorder.c:90:6:wav_recorder_record	1
+wav_recorder.c:101:6:wav_recorder_stop	1
+wav_recorder.c:110:6:wav_recorder_process	7
+wav_recorder.c:157:6:wav_recorder_isFinished	1
+wav_recorder.c:165:6:wav_recorder_pause	1
+wav_recorder.c:169:6:wav_recorder_resume	1
+wav_recorder.c:177:6:wavRecorder_halfTransfer_Callback	1
+wav_recorder.c:181:6:wavRecorder_fullTransfer_Callback	1

@@ -1,0 +1,12 @@
+core_cm4.h:1648:22:__NVIC_SetPriorityGrouping	1
+core_cm4.h:1679:22:__NVIC_EnableIRQ	2
+core_cm4.h:1809:22:__NVIC_SetPriority	2
+uart.c:13:6:uart_UART1_GPIO_config	1
+uart.c:34:6:uart_UART1_config	1
+uart.c:60:6:uart_UART1_TX	6
+uart.c:88:6:uart_UART2_GPIO_config	1
+uart.c:111:6:uart_UART2_config	1
+uart.c:146:6:uart_UART2_TX	6
+uart.c:174:6:uart_UART2_DMA_config	1
+uart.c:238:6:uart_UART2_DMA_TX	1
+uart.c:253:6:uart_UART2_DMA_RX	1

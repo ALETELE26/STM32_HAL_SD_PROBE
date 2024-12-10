@@ -1,0 +1,12 @@
+gpio.c:11:6:gpioPeriphClockControl	10
+gpio.c:40:6:gpio_Init	2
+gpio.c:88:6:gpio_PortReset	5
+gpio.c:102:6:gpio_ReadFromInputPin	1
+gpio.c:107:10:gpio_ReadFromInputPort	1
+gpio.c:114:6:gpio_WriteToOutputPin	2
+gpio.c:125:6:gpio_WriteToOutputPort	1
+gpio.c:130:6:gpio_ToggleOutputPin	1
+gpio.c:140:6:gpio_LED_config	1
+gpio.c:158:6:gpio_LED_writeGreen	2
+gpio.c:170:6:gpio_LED_toggleGreen	1
+gpio.c:178:6:gpio_TIM1_CH1_input_config	1

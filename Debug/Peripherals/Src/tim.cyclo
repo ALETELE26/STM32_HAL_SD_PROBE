@@ -1,0 +1,14 @@
+core_cm4.h:1679:22:__NVIC_EnableIRQ	2
+core_cm4.h:1809:22:__NVIC_SetPriority	2
+tim.c:12:6:tim_TIM2_delayConfig	1
+tim.c:31:6:tim_TIM2_usDelay	1
+tim.c:47:6:tim_TIM2_msDelay	2
+tim.c:58:6:tim_TIM1_InputCaptureConfig	1
+tim.c:102:6:tim_TIM15_PWM_GPIO_config	1
+tim.c:119:6:tim_TIM15_PWM_config	1
+tim.c:160:6:tim_PWM_setBrightness	1
+tim.c:168:6:tim_TIM6_TRGO_config	1
+tim.c:196:6:tim_TIM1_RGB_PWM_GPIO_config	1
+tim.c:225:6:tim_TIM1_RGB_PWM_config	1
+tim.c:282:6:tim_TIM1_RGB_PWM_setColor	1
+tim.c:293:6:tim_TIM6_MIC_config	1

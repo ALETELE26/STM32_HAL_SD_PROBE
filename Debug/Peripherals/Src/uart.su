@@ -1,0 +1,12 @@
+../Drivers/CMSIS/Include/core_cm4.h:1648:22:__NVIC_SetPriorityGrouping	24	static
+../Drivers/CMSIS/Include/core_cm4.h:1679:22:__NVIC_EnableIRQ	16	static,ignoring_inline_asm
+../Drivers/CMSIS/Include/core_cm4.h:1809:22:__NVIC_SetPriority	16	static
+../Peripherals/Src/uart.c:13:6:uart_UART1_GPIO_config	4	static
+../Peripherals/Src/uart.c:34:6:uart_UART1_config	4	static
+../Peripherals/Src/uart.c:60:6:uart_UART1_TX	32	static
+../Peripherals/Src/uart.c:88:6:uart_UART2_GPIO_config	4	static
+../Peripherals/Src/uart.c:111:6:uart_UART2_config	16	static
+../Peripherals/Src/uart.c:146:6:uart_UART2_TX	32	static
+../Peripherals/Src/uart.c:174:6:uart_UART2_DMA_config	8	static
+../Peripherals/Src/uart.c:238:6:uart_UART2_DMA_TX	16	static
+../Peripherals/Src/uart.c:253:6:uart_UART2_DMA_RX	16	static

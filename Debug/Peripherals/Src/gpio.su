@@ -1,0 +1,12 @@
+../Peripherals/Src/gpio.c:11:6:gpioPeriphClockControl	16	static
+../Peripherals/Src/gpio.c:40:6:gpio_Init	24	static
+../Peripherals/Src/gpio.c:88:6:gpio_PortReset	16	static
+../Peripherals/Src/gpio.c:102:6:gpio_ReadFromInputPin	16	static
+../Peripherals/Src/gpio.c:107:10:gpio_ReadFromInputPort	24	static
+../Peripherals/Src/gpio.c:114:6:gpio_WriteToOutputPin	16	static
+../Peripherals/Src/gpio.c:125:6:gpio_WriteToOutputPort	16	static
+../Peripherals/Src/gpio.c:130:6:gpio_ToggleOutputPin	16	static
+../Peripherals/Src/gpio.c:140:6:gpio_LED_config	4	static
+../Peripherals/Src/gpio.c:158:6:gpio_LED_writeGreen	16	static
+../Peripherals/Src/gpio.c:170:6:gpio_LED_toggleGreen	4	static
+../Peripherals/Src/gpio.c:178:6:gpio_TIM1_CH1_input_config	4	static

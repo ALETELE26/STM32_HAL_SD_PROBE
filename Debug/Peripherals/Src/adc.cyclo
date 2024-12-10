@@ -1,0 +1,9 @@
+core_cm4.h:1679:22:__NVIC_EnableIRQ	2
+core_cm4.h:1809:22:__NVIC_SetPriority	2
+adc.c:13:6:adc_GPIO_config	1
+adc.c:27:6:adc_ADCVREG_STUP_delay	2
+adc.c:36:6:adc_single_channel_auto_delayed_continuous_conv_config	3
+adc.c:89:6:adc_multiChannel_config	3
+adc.c:160:6:adc_multiChannel_DMA_config	1
+adc.c:199:6:adc_MIC_config	3
+adc.c:256:6:adc_MIC_DMA_config	1

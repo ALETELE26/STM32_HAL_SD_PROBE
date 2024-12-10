@@ -1,0 +1,14 @@
+../Drivers/CMSIS/Include/core_cm4.h:1679:22:__NVIC_EnableIRQ	16	static,ignoring_inline_asm
+../Drivers/CMSIS/Include/core_cm4.h:1809:22:__NVIC_SetPriority	16	static
+../Peripherals/Src/tim.c:12:6:tim_TIM2_delayConfig	8	static
+../Peripherals/Src/tim.c:31:6:tim_TIM2_usDelay	16	static
+../Peripherals/Src/tim.c:47:6:tim_TIM2_msDelay	24	static
+../Peripherals/Src/tim.c:58:6:tim_TIM1_InputCaptureConfig	8	static
+../Peripherals/Src/tim.c:102:6:tim_TIM15_PWM_GPIO_config	4	static
+../Peripherals/Src/tim.c:119:6:tim_TIM15_PWM_config	4	static
+../Peripherals/Src/tim.c:160:6:tim_PWM_setBrightness	16	static
+../Peripherals/Src/tim.c:168:6:tim_TIM6_TRGO_config	16	static
+../Peripherals/Src/tim.c:196:6:tim_TIM1_RGB_PWM_GPIO_config	4	static
+../Peripherals/Src/tim.c:225:6:tim_TIM1_RGB_PWM_config	4	static
+../Peripherals/Src/tim.c:282:6:tim_TIM1_RGB_PWM_setColor	24	static
+../Peripherals/Src/tim.c:293:6:tim_TIM6_MIC_config	4	static
