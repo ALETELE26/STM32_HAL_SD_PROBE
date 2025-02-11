@@ -220,15 +220,23 @@ void adc_MIC_config(void)
 	ADC1->CFGR &=~ (ADC_CFGR_ALIGN);
 	//Single Conversion Mode
 	ADC1->CFGR &=~ (ADC_CFGR_CONT);
-	//Sample time to 24.5 ADC CLK Cycles
-	//Tconv= (24.5+12.5) ADC CLK Cycles = 37 ADC clock cycles = 2.3125us
-	//Max Sample Frequency = 432kHz
+	//-----Sample time to 24.5 ADC CLK Cycles-----//
+	//Tconv= (24.5+12.5) ADC CLK Cycles = 37 ADC clock cycles = 513.88ns
+	//Total Tconv= Tconv *4= 2.055us(with N=4 oversampling)
+	//Oversampled max frequency=486.49kHz
 	ADC1->SMPR1 &=~ (ADC_SMPR1_SMP8);
 	ADC1->SMPR1 |= (0x3UL << ADC_SMPR1_SMP8_Pos);
 	//Single-channel mode
 	ADC1->SQR1 &=~(ADC_SQR1_L);
 	ADC1->SQR1  &=~ (ADC_SQR1_SQ1);
 	ADC1->SQR1  |= (0x8UL << (6U));
+	//----------------Oversampling Code-----------------------------//
+	//Enable Regular Oversampled Mode
+	ADC1->CFGR2 |= (ADC_CFGR2_ROVSE);
+	//Oversampling Ratio to 4 (no bit shifting)
+	ADC1->CFGR2 &=~ (ADC_CFGR2_OVSR);
+	ADC1->CFGR2 |= (ADC_CFGR2_OVSR_0);
+	//-------------------End of Oversampling Code------------------//
 	//TIM6 TRGO Trigger
 	ADC1->CFGR &=~ (ADC_CFGR_EXTEN);
 	ADC1->CFGR |= (ADC_CFGR_EXTEN_0);

@@ -301,9 +301,9 @@ void tim_TIM6_MIC_config(void)
 	TIM6->CR2 &=~ (TIM_CR2_MMS);
 	TIM6->CR2 |= (TIM_CR2_MMS_1);
 	//f=44.1kHz
-	TIM6->PSC = 0;//Keep 16MHz of clock
+	TIM6->PSC = 0;//Keep APB clock Frequency
 	//Period
-	TIM6->ARR=363-1;//16M/363= 44.077kHz
+	TIM6->ARR=816-1;//72MHz/816= 88.23kHz
 	//Update register on event
 	TIM6->EGR=1;
 //	//Start timer

@@ -6,4 +6,4 @@
 ../Peripherals/Src/adc.c:89:6:adc_multiChannel_config	8	static
 ../Peripherals/Src/adc.c:160:6:adc_multiChannel_DMA_config	16	static
 ../Peripherals/Src/adc.c:199:6:adc_MIC_config	8	static
-../Peripherals/Src/adc.c:256:6:adc_MIC_DMA_config	16	static
+../Peripherals/Src/adc.c:264:6:adc_MIC_DMA_config	16	static

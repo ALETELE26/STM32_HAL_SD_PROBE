@@ -35,5 +35,17 @@ void opamp_config(void)
 	OPAMP->CSR &=~(OPAMP1_CSR_VPSEL);
 	//OPAMP Switch ON
 	OPAMP->CSR |=(OPAMP1_CSR_OPAEN);
-
+    //--------Calibration Procedure-----------//
+//	//Activate user trim
+//	OPAMP->CSR |=(OPAMP1_CSR_USERTRIM);
+//	//Start Calibration Mode
+//	OPAMP->CSR |=(OPAMP1_CSR_CALON);
+//	//Offset cal high for low-power mode(N differential pair)
+//	//Starting from cero
+//
+//	//Wait until CALOUT is HIGH
+//	while(!(OPAMP->CSR & (OPAMP1_CSR_CALOUT)))
+//	{
+//
+//	}
 }

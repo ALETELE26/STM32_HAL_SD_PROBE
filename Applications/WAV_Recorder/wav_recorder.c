@@ -17,7 +17,7 @@ static UINT recorderWriteBytes = 0;
 
 //WAV Audio Buffer
 #define AUDIO_BUFFER_SIZE  4096
-static int16_t audioBuffer[AUDIO_BUFFER_SIZE];
+static uint16_t audioBuffer[AUDIO_BUFFER_SIZE];
 static __IO uint32_t audioAccumSize;
 static bool isFinished=0;
 static WAV_HeaderTypeDef wavHeader;
